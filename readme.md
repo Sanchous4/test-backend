@@ -13,12 +13,12 @@ mvn spring-boot:run
 ### Compile it
 ```
 # clean a previous build and make a new JAR
-mvn clean compile assembly:single
+mvn clean package
 ```
 ### Run it
 ```
 # run the JAR
-java -jar {fileName}.jar
+java -jar ./target/testing-web-0.0.2.jar.original
 ```
 
 ## Make request to hello world
